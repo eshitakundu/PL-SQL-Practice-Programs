@@ -1,0 +1,35 @@
+Write a PL/SQL program which can update cost value of corresponding book number of the BOOKS_COPY Table.
+ - INPUT: BOOK_NO, NEW COST,
+ - CONDITION: Old cost value will less than 450 and new cost value will less than 900 otherwise provide an error message.
+
+Write a PL/SQL Program which take MEMBER_ID as input and provide the corresponding MEMBER_NAME, MEMBER_ADDRESS AND FEES PAID.
+
+Take an input of any Member Number and display the Member Name in upper case and lower case.
+
+Write a PL/SQL program which can update the cost of BOOKS_COPY table with 10 more cost where cost is less than 500 and show how many rows are affected (Use Implicit Cursor SQL%ROWCOUNT).
+
+Write a PL/SQL program which can increment the value of MAX_BOOKS_ALLOWED of MEMBER_COPY table with 2 where MEMBER_ID = 5, and show a message if update is possible. (Use Implicit Cursor SQL%FOUND).
+
+Write a PL/SQL Program using Explicit Cursor and show the Member_ID, Member Name for every attribute of Member.
+
+Write a PL/SQL program using Explicit Cursor which deducts the value of Max_Books_Allowed from MEMBER_COPY table. Deduct value means the value that how many times this member accesses the books. After deduction if value of Max_Books_Allowed is less than 0 then do not update it and show an error message.
+
+Create a table BOOK_UPDATE with attribute BOOK_NO, BOOK_NAME, INCREAMENT VALUE, UPDATE_DATE and write a PL/SQL program using Explicit Cursor which can update the cost value of BOOKS_COPY table with 10 and 20 where category is Science and database respectively, and if update is possible then insert BOOK_NO, BOOK_NAME, INCREAMENT VALUE, SYSDATE to the BOOK_UPDATE table.
+
+Write a PL/SQL program using Explicit Cursor which can display the all information of 5 books from BOOK_COPY table according to the higher cost.
+
+Write a PL/SQL PROCEDURE to compute addition between two numbers and use the different modes (IN, OUT, IN OUT) of data type in input variables which are used on creating PROCEDURE.
+
+Write the SQL query to show the error of the PROCEDURE compilation.
+
+Write a PL/SQL Procedure which take MEMBER_ID as an input and show the corresponding MEMBER_NAME.
+
+Write a PL/SQL procedure which take BOOK_CATEGORY as an input and show the corresponding BOOK_NAME.
+
+Write a PL/SQL procedure which can take the BOOK_ID as user input and update the cost with 50 more cost in BOOKS_COPY table.
+
+Write the PL/SQL function which can compute the multiplication between two numbers and return the value to the normal PL/SQL program which can show the output.
+
+Write a PL/SQL function which take COST of the book as the user input and retrieve the BOOK NAME from the BOOKS table.
+
+Write a PL/SQL function which take AUTHOR_NAME of the book as the user input and retrieve the BOOK NAME from the BOOKS table.
